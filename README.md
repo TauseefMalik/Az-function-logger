@@ -1,5 +1,5 @@
 # Az-function-logger
-Azure HTTP trigger Function and Serilogger
+Azure Functions HTTP trigger and Serilogger
 
 ## Problem
 In most Server-less boilerplate template, generally a log context is provided which logs to default log service of the respective Cloud provider i.e. Azure Application metric or Microsoft.Extensions.Logging class.
