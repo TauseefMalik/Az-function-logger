@@ -14,4 +14,6 @@ We will use Serilog library to perform logging in our HTTP trigger Azure functio
 
 Switch to Monitor section in the function and check the App Insights Logs to view the logs in real-time. Notice how the logs are colored based on the log severity i.e. warning, info or error etc.
 
-# Rerun and add a new screenshot
+## Execution
+
+![Execution](https://github.com/TauseefMalik/Az-function-logger/blob/main/Capture.PNG)
