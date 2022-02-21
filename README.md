@@ -2,7 +2,7 @@
 Azure Functions HTTP trigger and Serilogger
 
 ## Problem
-In most Server-less boilerplate template, generally a log context is provided which logs to default log service of the respective Cloud provider i.e. Azure Application metric or Microsoft.Extensions.Logging class.
+In most Server-less boilerplate template, generally a log context is provided which logs to default log service of the respective Cloud provider i.e. Azure Application metric.
 
 However, they do not provide the ability to log messages with different log levels which is really necessary for large distributed micro-service based systems where-in you need to drill down to a particular warning or debug message.
 Without a log-level, it becomes tedious to filter out the types of message that really interests us.
